@@ -1,0 +1,39 @@
+nlp 
+
+analysis the data
+	> assigning the label
+	> find the shape of the dataset
+	> groupby based on unique
+	> set the label and feature
+	> target identification
+
+preprocessing
+	> tokenization --> seperate the string into word
+	> stemming --> convert into base word
+	> lemmatizer --> its a part of stemming package, used over stemming, it gives the best result by providing root base of the word
+	> stop words --> removing stop words in english 
+	
+feature extraction (advanced pre-processing of data)
+	> BOG (bag of words) --> used to find the number of times the word is repeating in the whole doc, simply to find the weigth of the word
+	> TDM (Term DOcument Matrix) --> row=document, word in each doc = term, finding the log(term) frequency of occurance of terms in the collection of doc
+	> TFIDF (Term Frequency Inverse Document Frequency) --> minimize the weight of randomly occuring word and increase the weight of rare words.
+
+analysis --> train --> predict --> evaluate
+Classification Algorithm: 
+	> descision tree
+	> Stochastic gradient descecnet
+	> svm
+	> naive bais
+	> random forest
+
+performing cross validation: to cross validate our result obtaines through classifier algorithm
+	> stratified shuffle split for imbalance class dataset --> parting the dataset based on test size
+	> ensemble the classifier based on the cross-validation score
+	> model with higher score is used for building further classification model
+
+performance evaluation: (based on the model which have higher cross validation score, we can use it for further analysis to check the performance)
+	> classification accuraccy
+	> confusion matrix (commonly used matrix to analysis the actual and predicated value)
+	> classification report - to find how often the classified report was correct
+
+
