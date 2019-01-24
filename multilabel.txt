@@ -1,0 +1,11 @@
+Multilable classififcation approach:
+
+https://www.analyticsvidhya.com/blog/2017/08/introduction-to-multi-label-classification/
+https://medium.com/coinmonks/multi-label-classification-blog-tags-prediction-using-nlp-b0b5ee6686fc
+
+ 1. Problem Transformation (treat the problem as single label problem)
+    a) binary relevance  --> divide the problem into single lable problem
+    b) classifier chains --> each time add the number of label to the classifier
+    c) label powerset --> label the data based on similar value
+ 2. Adopted algorithm --> use MLkNN (Multi Label K Nearest Neigbours) algorithm to classify the problem, random forest also multilabel solving algorithm
+ 3. Ensemble approach --> 
